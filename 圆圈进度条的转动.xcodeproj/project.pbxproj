@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091794E21C72F7CD0089A720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091794E11C72F7CD0089A720 /* main.m */; };
+		091794E51C72F7CD0089A720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 091794E41C72F7CD0089A720 /* AppDelegate.m */; };
+		091794E81C72F7CE0089A720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091794E71C72F7CE0089A720 /* ViewController.m */; };
+		091794EB1C72F7CE0089A720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091794E91C72F7CE0089A720 /* Main.storyboard */; };
+		091794EE1C72F7CE0089A720 /* ________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 091794EC1C72F7CE0089A720 /* ________.xcdatamodeld */; };
+		091794F01C72F7CE0089A720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091794EF1C72F7CE0089A720 /* Assets.xcassets */; };
+		091794F31C72F7CE0089A720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091794F11C72F7CE0089A720 /* LaunchScreen.storyboard */; };
+		091794FE1C72F7CE0089A720 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091794FD1C72F7CE0089A720 /* ________Tests.m */; };
+		091795091C72F7CE0089A720 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091795081C72F7CE0089A720 /* ________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		091794FA1C72F7CE0089A720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 091794D51C72F7CD0089A720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091794DC1C72F7CD0089A720;
+			remoteInfo = "圆圈进度条的转动";
+		};
+		091795051C72F7CE0089A720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 091794D51C72F7CD0089A720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091794DC1C72F7CD0089A720;
+			remoteInfo = "圆圈进度条的转动";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091794DD1C72F7CD0089A720 /* 圆圈进度条的转动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "圆圈进度条的转动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		091794E11C72F7CD0089A720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		091794E31C72F7CD0089A720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		091794E41C72F7CD0089A720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		091794E61C72F7CD0089A720 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		091794E71C72F7CE0089A720 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		091794EA1C72F7CE0089A720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		091794ED1C72F7CE0089A720 /* ________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "________.xcdatamodel"; sourceTree = "<group>"; };
+		091794EF1C72F7CE0089A720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		091794F21C72F7CE0089A720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		091794F41C72F7CE0089A720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091794F91C72F7CE0089A720 /* 圆圈进度条的转动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "圆圈进度条的转动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		091794FD1C72F7CE0089A720 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		091794FF1C72F7CE0089A720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091795041C72F7CE0089A720 /* 圆圈进度条的转动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "圆圈进度条的转动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		091795081C72F7CE0089A720 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		0917950A1C72F7CE0089A720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091794DA1C72F7CD0089A720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091794F61C72F7CE0089A720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091795011C72F7CE0089A720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091794D41C72F7CD0089A720 = {
+			isa = PBXGroup;
+			children = (
+				091794DF1C72F7CD0089A720 /* 圆圈进度条的转动 */,
+				091794FC1C72F7CE0089A720 /* 圆圈进度条的转动Tests */,
+				091795071C72F7CE0089A720 /* 圆圈进度条的转动UITests */,
+				091794DE1C72F7CD0089A720 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		091794DE1C72F7CD0089A720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091794DD1C72F7CD0089A720 /* 圆圈进度条的转动.app */,
+				091794F91C72F7CE0089A720 /* 圆圈进度条的转动Tests.xctest */,
+				091795041C72F7CE0089A720 /* 圆圈进度条的转动UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091794DF1C72F7CD0089A720 /* 圆圈进度条的转动 */ = {
+			isa = PBXGroup;
+			children = (
+				091794E31C72F7CD0089A720 /* AppDelegate.h */,
+				091794E41C72F7CD0089A720 /* AppDelegate.m */,
+				091794E61C72F7CD0089A720 /* ViewController.h */,
+				091794E71C72F7CE0089A720 /* ViewController.m */,
+				091794E91C72F7CE0089A720 /* Main.storyboard */,
+				091794EF1C72F7CE0089A720 /* Assets.xcassets */,
+				091794F11C72F7CE0089A720 /* LaunchScreen.storyboard */,
+				091794F41C72F7CE0089A720 /* Info.plist */,
+				091794EC1C72F7CE0089A720 /* ________.xcdatamodeld */,
+				091794E01C72F7CD0089A720 /* Supporting Files */,
+			);
+			path = "圆圈进度条的转动";
+			sourceTree = "<group>";
+		};
+		091794E01C72F7CD0089A720 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				091794E11C72F7CD0089A720 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		091794FC1C72F7CE0089A720 /* 圆圈进度条的转动Tests */ = {
+			isa = PBXGroup;
+			children = (
+				091794FD1C72F7CE0089A720 /* ________Tests.m */,
+				091794FF1C72F7CE0089A720 /* Info.plist */,
+			);
+			path = "圆圈进度条的转动Tests";
+			sourceTree = "<group>";
+		};
+		091795071C72F7CE0089A720 /* 圆圈进度条的转动UITests */ = {
+			isa = PBXGroup;
+			children = (
+				091795081C72F7CE0089A720 /* ________UITests.m */,
+				0917950A1C72F7CE0089A720 /* Info.plist */,
+			);
+			path = "圆圈进度条的转动UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091794DC1C72F7CD0089A720 /* 圆圈进度条的转动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0917950D1C72F7CE0089A720 /* Build configuration list for PBXNativeTarget "圆圈进度条的转动" */;
+			buildPhases = (
+				091794D91C72F7CD0089A720 /* Sources */,
+				091794DA1C72F7CD0089A720 /* Frameworks */,
+				091794DB1C72F7CD0089A720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "圆圈进度条的转动";
+			productName = "圆圈进度条的转动";
+			productReference = 091794DD1C72F7CD0089A720 /* 圆圈进度条的转动.app */;
+			productType = "com.apple.product-type.application";
+		};
+		091794F81C72F7CE0089A720 /* 圆圈进度条的转动Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091795101C72F7CE0089A720 /* Build configuration list for PBXNativeTarget "圆圈进度条的转动Tests" */;
+			buildPhases = (
+				091794F51C72F7CE0089A720 /* Sources */,
+				091794F61C72F7CE0089A720 /* Frameworks */,
+				091794F71C72F7CE0089A720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091794FB1C72F7CE0089A720 /* PBXTargetDependency */,
+			);
+			name = "圆圈进度条的转动Tests";
+			productName = "圆圈进度条的转动Tests";
+			productReference = 091794F91C72F7CE0089A720 /* 圆圈进度条的转动Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		091795031C72F7CE0089A720 /* 圆圈进度条的转动UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091795131C72F7CE0089A720 /* Build configuration list for PBXNativeTarget "圆圈进度条的转动UITests" */;
+			buildPhases = (
+				091795001C72F7CE0089A720 /* Sources */,
+				091795011C72F7CE0089A720 /* Frameworks */,
+				091795021C72F7CE0089A720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091795061C72F7CE0089A720 /* PBXTargetDependency */,
+			);
+			name = "圆圈进度条的转动UITests";
+			productName = "圆圈进度条的转动UITests";
+			productReference = 091795041C72F7CE0089A720 /* 圆圈进度条的转动UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091794D51C72F7CD0089A720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王志盼";
+				TargetAttributes = {
+					091794DC1C72F7CD0089A720 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					091794F81C72F7CE0089A720 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 091794DC1C72F7CD0089A720;
+					};
+					091795031C72F7CE0089A720 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 091794DC1C72F7CD0089A720;
+					};
+				};
+			};
+			buildConfigurationList = 091794D81C72F7CD0089A720 /* Build configuration list for PBXProject "圆圈进度条的转动" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 091794D41C72F7CD0089A720;
+			productRefGroup = 091794DE1C72F7CD0089A720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091794DC1C72F7CD0089A720 /* 圆圈进度条的转动 */,
+				091794F81C72F7CE0089A720 /* 圆圈进度条的转动Tests */,
+				091795031C72F7CE0089A720 /* 圆圈进度条的转动UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091794DB1C72F7CD0089A720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091794F31C72F7CE0089A720 /* LaunchScreen.storyboard in Resources */,
+				091794F01C72F7CE0089A720 /* Assets.xcassets in Resources */,
+				091794EB1C72F7CE0089A720 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091794F71C72F7CE0089A720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091795021C72F7CE0089A720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091794D91C72F7CD0089A720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091794E81C72F7CE0089A720 /* ViewController.m in Sources */,
+				091794EE1C72F7CE0089A720 /* ________.xcdatamodeld in Sources */,
+				091794E51C72F7CD0089A720 /* AppDelegate.m in Sources */,
+				091794E21C72F7CD0089A720 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091794F51C72F7CE0089A720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091794FE1C72F7CE0089A720 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091795001C72F7CE0089A720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091795091C72F7CE0089A720 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		091794FB1C72F7CE0089A720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091794DC1C72F7CD0089A720 /* 圆圈进度条的转动 */;
+			targetProxy = 091794FA1C72F7CE0089A720 /* PBXContainerItemProxy */;
+		};
+		091795061C72F7CE0089A720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091794DC1C72F7CD0089A720 /* 圆圈进度条的转动 */;
+			targetProxy = 091795051C72F7CE0089A720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		091794E91C72F7CE0089A720 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091794EA1C72F7CE0089A720 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		091794F11C72F7CE0089A720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091794F21C72F7CE0089A720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0917950B1C72F7CE0089A720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0917950C1C72F7CE0089A720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0917950E1C72F7CE0089A720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "圆圈进度条的转动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0917950F1C72F7CE0089A720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "圆圈进度条的转动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		091795111C72F7CE0089A720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "圆圈进度条的转动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/圆圈进度条的转动.app/圆圈进度条的转动";
+			};
+			name = Debug;
+		};
+		091795121C72F7CE0089A720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "圆圈进度条的转动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/圆圈进度条的转动.app/圆圈进度条的转动";
+			};
+			name = Release;
+		};
+		091795141C72F7CE0089A720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "圆圈进度条的转动UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "圆圈进度条的转动";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		091795151C72F7CE0089A720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "圆圈进度条的转动UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "圆圈进度条的转动";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091794D81C72F7CD0089A720 /* Build configuration list for PBXProject "圆圈进度条的转动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0917950B1C72F7CE0089A720 /* Debug */,
+				0917950C1C72F7CE0089A720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0917950D1C72F7CE0089A720 /* Build configuration list for PBXNativeTarget "圆圈进度条的转动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0917950E1C72F7CE0089A720 /* Debug */,
+				0917950F1C72F7CE0089A720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		091795101C72F7CE0089A720 /* Build configuration list for PBXNativeTarget "圆圈进度条的转动Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091795111C72F7CE0089A720 /* Debug */,
+				091795121C72F7CE0089A720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		091795131C72F7CE0089A720 /* Build configuration list for PBXNativeTarget "圆圈进度条的转动UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091795141C72F7CE0089A720 /* Debug */,
+				091795151C72F7CE0089A720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		091794EC1C72F7CE0089A720 /* ________.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				091794ED1C72F7CE0089A720 /* ________.xcdatamodel */,
+			);
+			currentVersion = 091794ED1C72F7CE0089A720 /* ________.xcdatamodel */;
+			path = "________.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 091794D51C72F7CD0089A720 /* Project object */;
+}
